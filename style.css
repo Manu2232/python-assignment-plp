@@ -1,0 +1,145 @@
+/* Basic Reset & Body Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Clean, common sans-serif font */
+    line-height: 1.6;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    padding: 20px;
+}
+
+/* Container for Centering Content */
+header, main, footer {
+    max-width: 900px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #000000; /* Black border */
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.5em; /* Larger font for name */
+}
+
+header p {
+    font-size: 1.1em;
+    color: #333; /* Slightly lighter black for tagline */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 40px; /* Space between sections */
+    padding: 20px;
+    border: 1px solid #cccccc; /* Light grey border for separation */
+    background-color: #f9f9f9; /* Very light grey background for sections */
+}
+
+section h2 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000000; /* Black underline for section titles */
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+/* Skills List Styling */
+#skills ul {
+    list-style: none; /* Remove default bullets */
+}
+
+#skills li {
+    display: inline-block; /* Display skills side-by-side */
+    background-color: #eeeeee; /* Light grey background for skill tags */
+    color: #000000; /* Black text */
+    padding: 5px 15px;
+    margin: 5px;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Project Styling */
+.project {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #cccccc; /* Dashed separator between projects */
+}
+
+.project:last-child {
+    border-bottom: none; /* Remove border from last project */
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+/* Link and Button Styling */
+a {
+    color: #000000; /* Black links */
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #444444; /* Dark grey on hover */
+    text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px; /* Add some space above buttons */
+}
+
+.button:hover {
+    background-color: #333333; /* Darker grey on hover */
+    color: #ffffff;
+}
+
+/* Contact Form Styling */
+#contact label {
+    display: block; /* Place labels on their own line */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%; /* Make inputs/textarea fill container width */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Light grey border */
+    font-family: inherit; /* Use body font */
+    font-size: 1em;
+}
+
+#contact textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 2px solid #000000; /* Black border */
+    font-size: 0.9em;
+    color: #333; /* Slightly lighter black */
+}
